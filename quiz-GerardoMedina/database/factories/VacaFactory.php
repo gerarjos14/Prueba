@@ -15,7 +15,7 @@ class VacaFactory extends Factory
     {
         return [
             'weight' => $this->faker->randomNumber(3, true),
-            'milk_per_day' => $this->faker->randomNumber(2, true),
+            'milk_per_day' => $this->faker->randomNumber(3, true),
         ];
     }
 }

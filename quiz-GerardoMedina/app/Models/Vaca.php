@@ -19,6 +19,6 @@ class Vaca extends Model
     ];
 
     public function truck() { //Un lead solo tiene un usuario
-        return $this->belongsTo(Truck::class, 'truck_id', 'id');
+        return $this->belongsTo(Truck::class, 'truck_id');
     }
 }

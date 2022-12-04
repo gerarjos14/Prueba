@@ -17,6 +17,7 @@ class CreateTrucksTable extends Migration
             $table->id();
             $table->string('name')->nullable();
             $table->float('support_kg')->nullable();
+            $table->softDeletes();
             $table->timestamps();
         });
     }
